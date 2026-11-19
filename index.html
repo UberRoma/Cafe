@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kofehoney — мистецтво ідеальної кави</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="bean" viewBox="0 0 40 60"><path d="M20 1C7 3 1 18 3 34s12 25 21 24c10-1 15-15 13-31S31 0 20 1Zm-1 8c5 9-5 18 1 26s3 16 0 21c-6-4-10-14-9-26S13 15 19 9Z" fill-rule="evenodd"/></symbol>
+  <symbol id="cupi" viewBox="0 0 24 24"><path d="M3 8h14v5a6 6 0 0 1-6 6H9a6 6 0 0 1-6-6V8Zm14 1h2a2 2 0 0 1 0 5h-2V9ZM6 3h2v3H6V3Zm4 0h2v3h-2V3Z"/></symbol>
+  <symbol id="top" viewBox="0 0 200 200"><circle cx="100" cy="100" r="92" fill="#f7efe8"/><circle cx="100" cy="100" r="72" fill="#4a2312"/><circle cx="100" cy="100" r="60" fill="#c98a55"/><path d="M100 58c14 10 20 26 0 42-20-16-14-32 0-42Zm0 42c14 10 20 26 0 42-20-16-14-32 0-42Z" fill="#f5e3cd" opacity=".9"/></symbol>
+</svg>
+
+<header id="top"><div class="prog" id="prog"></div>
+  <div class="wrap bar">
+    <a class="logo" href="#top" aria-label="Kofehoney"><i><svg viewBox="0 0 24 24"><use href="#cupi"/></svg></i>Kofehoney</a>
+    <nav id="nav" aria-label="Головна навігація">
+      <a href="#top">Головна</a><a href="#about">Про нас</a><a href="#shop">Магазин</a><a href="#book">Бронювання</a><a href="#menu">Меню</a>
+    </nav>
+    <div class="tools"><button class="ic" id="tg" aria-label="Змінити тему"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18V3Z"/><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/></svg></button><button class="ic cart" id="cart" aria-label="Замовлення"><svg viewBox="0 0 24 24"><use href="#cupi"/></svg><b id="cnt">0</b></button><a class="btn" href="#book">Бронювати</a></div>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="nav" aria-label="Відкрити меню"><span></span></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="ghost" aria-hidden="true">Coffee</div>
+  <div class="wrap">
+    <div>
+      <h1 id="h1">Відкрийте мистецтво ідеальної кави</h1>
+      <p class="lead in" style="animation-delay:.12s">Пориньте у світ вишуканого смаку та аромату. Ми відбираємо найкращі зерна з усього світу, щоб кожен ваш ранок починався з натхнення та енергії.</p>
+      <a class="btn in" style="animation-delay:.24s" href="#shop">Замовити
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+      <div class="stats in" style="animation-delay:.36s">
+        <div><b data-n="1" data-s="k+">0</b><span>позитивних відгуків</span></div>
+        <div><b data-n="4" data-s="k+">0</b><span>успішних продажів</span></div>
+        <div><b data-n="56" data-s="k+">0</b><span>приготованих чашок</span></div>
+      </div>
+    </div>
+    <div class="stage" aria-hidden="true">
+      <svg class="badge" viewBox="0 0 120 120"><defs><path id="cp" d="M60 60m-46 0a46 46 0 1 1 92 0a46 46 0 1 1-92 0"/></defs><text><textPath href="#cp" textLength="284" lengthAdjust="spacing">Свіжообсмажена • Спешелті • Щодня •</textPath></text><circle cx="60" cy="60" r="7"/></svg>
+      <svg class="bean" style="left:2%;top:10%" viewBox="0 0 40 60"><use href="#bean"/></svg>
+      <svg class="bean" style="right:4%;bottom:14%" viewBox="0 0 40 60"><use href="#bean"/></svg>
+      <svg class="bean" style="right:10%;top:4%;width:26px" viewBox="0 0 40 60"><use href="#bean"/></svg>
+      <svg class="cup" viewBox="0 0 400 400">
+        <defs>
+          <linearGradient id="cg" x1="0" x2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#e5d3d6"/></linearGradient>
+          <radialGradient id="cof" cx=".4" cy=".35"><stop offset="0" stop-color="#c98a55"/><stop offset="1" stop-color="#4a1d0c"/></radialGradient>
+        </defs>
+        <ellipse cx="200" cy="350" rx="170" ry="30" fill="#000" opacity=".12"/>
+        <ellipse cx="200" cy="325" rx="165" ry="34" fill="url(#cg)"/>
+        <path d="M90 170h220c0 80-40 140-110 140S90 250 90 170Z" fill="url(#cg)"/>
+        <path d="M308 190h28c26 0 26 52-6 52h-34" fill="none" stroke="#e5d3d6" stroke-width="16" stroke-linecap="round"/>
+        <ellipse cx="200" cy="170" rx="110" ry="26" fill="#f4edef"/>
+        <ellipse cx="200" cy="172" rx="98" ry="20" fill="url(#cof)"/>
+        <path d="M170 172c12-10 24-10 30 0 6-10 18-10 30 0-12 10-24 12-30 2-6 10-18 8-30-2Z" fill="#f5e3cd"/>
+        <g class="steam"><path d="M170 130c-16-20 16-30 0-52"/><path d="M200 130c-16-20 16-30 0-60"/><path d="M230 130c-16-20 16-30 0-52"/></g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<div class="marq" aria-hidden="true"><div class="track"><span>Свіжообсмажені зерна<svg viewBox="0 0 40 60"><use href="#bean"/></svg>Спешелті класу<svg viewBox="0 0 40 60"><use href="#bean"/></svg>Cold Brew<svg viewBox="0 0 40 60"><use href="#bean"/></svg>Доставка по Києву<svg viewBox="0 0 40 60"><use href="#bean"/></svg>Баристи-митці<svg viewBox="0 0 40 60"><use href="#bean"/></svg></span></div></div>
+
+<section class="sec tint" id="about">
+  <div class="wrap">
+    <div class="head"><h2>Наші чудові послуги</h2><p>Ми дбаємо про кожну деталь, щоб ви насолоджувались ідеальним смаком. Оберіть те, що до душі саме вам.</p></div>
+    <div class="grid3">
+      <article class="card"><div class="ico"><svg viewBox="0 0 24 24"><use href="#cupi"/></svg></div><h3>Типи кави</h3><p>Пориньте у світ вишуканого смаку та аромату. Ми робимо так, щоб кожен ваш ранок починався з натхнення та енергії.</p><a class="more" href="#menu">Детальніше ↗</a></article>
+      <article class="card"><div class="ico"><svg viewBox="0 0 40 60"><use href="#bean"/></svg></div><h3>Добірні зерна</h3><p>Ми використовуємо лише свіжообсмажені зерна класу спешелті. Свіже обсмажування розкриває найтонші нотки шоколаду, фруктів та горіхів.</p><a class="more" href="#shop">Детальніше ↗</a></article>
+      <article class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M6 5h12l-1.4 15H7.4L6 5Zm1-3h10v2H7V2Z"/></svg></div><h3>Холодна кава</h3><p>Освіжаючі напої для енергійного дня. Спробуйте наш фірмовий Cold Brew, тонізуючий еспресо-тонік або ніжний айс-лате.</p><a class="more" href="#menu">Детальніше ↗</a></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="shop">
+  <div class="wrap">
+    <div class="head"><h2>Насолоджуйтесь новими кавовими блендами</h2><p>Відкрийте для себе унікальні смаки, створені з найкращих зерен. Кожна чашка — це нова історія смаку.</p></div>
+    <div class="grid3">
+      <article class="blend"><div class="pic"><img src="images/arabica.jpg" alt="Дівчина з гарячою чашкою кави біля вікна" width="640" height="480" loading="lazy"></div><div class="t"><div class="row"><h3>Кава Арабіка</h3><b>95₴</b></div><p>100% арабіка, м’який смак.</p><a class="btn" href="#book">Замовити зараз</a></div></article>
+      <article class="blend"><div class="pic"><img src="images/jean.jpg" alt="Бариста переливає каву в склянку з льодом" width="640" height="480" loading="lazy"></div><div class="t"><div class="row"><h3>Кава Jean</h3><b>110₴</b></div><p>Середнє обсмажування, баланс смаку.</p><a class="btn" href="#book">Замовити зараз</a></div></article>
+      <article class="blend"><div class="pic"><img src="images/black.jpg" alt="Чашка чорної кави" width="640" height="480" loading="lazy"></div><div class="t"><div class="row"><h3>Чорна кава</h3><b>75₴</b></div><p>Максимальна міцність та аромат.</p><a class="btn" href="#book">Замовити зараз</a></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="banner">
+  <img class="bimg" src="images/morning.jpg" alt="" width="900" height="1350" loading="lazy">
+  <div class="wrap">
+    <h2>Отримайте шанс на дивовижний ранок</h2>
+    <p>Не дозволяйте буденності зіпсувати ваш настрій. Почніть день правильно — з горнятка нашої магічної кави, яка дарує заряд бадьорості та натхнення на нові звершення. Ми дбаємо про кожну деталь, від зерна до чашки.</p>
+    <a class="btn light" href="#book">Замовити</a>
+  </div>
+</section>
+
+<section class="sec tint" id="book">
+  <div class="wrap split">
+    <div>
+      <h2>Замовте свою улюблену каву</h2>
+      <p>Наші баристи — це справжні митці, закохані у свою справу. Вони використовують професійне обладнання та найкращі зерна, щоб створити шедевр у кожній чашці. Завітайте до нас, щоб відчути атмосферу затишку, або замовте швидку доставку додому чи в офіс.</p>
+      <a class="btn" href="#menu">Читати</a>
+    </div>
+    <div class="shop"><img src="images/barista.jpg" alt="Бариста готує каву з льодом" width="760" height="950" loading="lazy"></div>
+  </div>
+</section>
+
+<section class="sec" id="ritual"><div class="wrap split">
+  <div class="rbox" id="rbox" style="--y:170px;--liq:#4a1d0c" aria-hidden="true"><svg viewBox="0 0 240 280"><defs><clipPath id="gl"><path d="M40 40h160l-16 204a18 18 0 0 1-18 16H74a18 18 0 0 1-18-16L40 40Z"/></clipPath></defs><g clip-path="url(#gl)"><g class="liq"><g class="wv"><path d="M-120 0q30-16 60 0t60 0t60 0t60 0t60 0t60 0t60 0t60 0t60 0V300H-120Z"/></g></g><g class="ice"><rect x="78" y="70" width="42" height="42" rx="8"/><rect x="128" y="96" width="38" height="38" rx="8"/><rect x="96" y="140" width="36" height="36" rx="8"/></g></g><path d="M40 40h160l-16 204a18 18 0 0 1-18 16H74a18 18 0 0 1-18-16L40 40Z" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="4"/></svg></div>
+  <div><h2>Підбери свій ритуал</h2><p>Одні й ті самі зерна мають три характери. Оберіть спосіб заварювання й подивіться, як змінюються пропорції, час і смак.</p>
+  <div class="tabs" role="tablist" aria-label="Спосіб заварювання"><button role="tab" aria-selected="true" data-k="es">Еспресо</button><button role="tab" aria-selected="false" data-k="fl">Фільтр</button><button role="tab" aria-selected="false" data-k="cb">Cold Brew</button></div>
+  <dl class="spec" id="spec"><div><dt>Кава до води</dt><dd id="ra">1 : 2</dd></div><div><dt>Час</dt><dd id="rt">25–30 с</dd></div><div><dt>Вода</dt><dd id="rw">93 °C</dd></div></dl>
+  <p id="rd" aria-live="polite" style="margin-bottom:0">Концентрований смак із щільною кремою. Основа для капучино та флет вайт.</p></div>
+</div></section>
+
+<section class="sec" id="menu">
+  <div class="wrap">
+    <div class="head"><h2>Популярне меню</h2><p>Обирайте найулюбленіші позиції наших гостей. Класичні смаки, перевірені часом.</p></div>
+    <div class="grid4">
+      <article class="item"><div class="ring" style="--c1:#e5b27a;--c2:#9a5a2a"><i></i></div><h3>Капучино</h3><p>Подвійний еспресо з ідеально збитим шовковистим молоком.</p><b>₴75</b></article>
+      <article class="item"><div class="ring" style="--c1:#c98a55;--c2:#5a2a10"><i></i></div><h3>Флет Вайт</h3><p>Насичений смак подвійного еспресо з тонкою молочною пінкою.</p><b>₴85</b></article>
+      <article class="item"><div class="ring" style="--c1:#a8a39d;--c2:#3b2418"><i></i></div><h3>Фільтр-кава</h3><p>Чорна кава. Чистий смак з яскравими фруктовими нотами.</p><b>₴65</b></article>
+      <article class="item"><div class="ring" style="--c1:#e57a2a;--c2:#3a1408"><i></i></div><h3>Еспресо-тонік</h3><p>Холодний мікс свіжого еспресо, крафтового тоніка, льоду та лимона.</p><b>₴95</b></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec tint">
+  <div class="wrap">
+    <div class="head"><h2>Відгуки наших клієнтів</h2><p>Реальні відгуки від людей, які щодня обирають нашу каву.</p></div>
+    <div class="grid3">
+      <figure class="quote" style="margin:0"><p>«Раніше я скептично ставилася до доставки кави, але ви зламали систему. Зерна завжди свіжого обсмажування, а еспресо-тонік просто рятує. Швидко, якісно, без зайвих понтів. Тепер замовляю тільки у вас.»</p><figcaption class="who"><i>О</i><span>Олена В.<small>Менеджер</small></span></figcaption></figure>
+      <figure class="quote" style="margin:0"><p>«Ідеальне місце, щоб закинутись нормальним кофеїном перед парами в коледжі. Беру зазвичай флет вайт — бадьорить миттєво і на смак топ, ніякої перепаленої гіркоти, як у більшості кав’ярень.»</p><figcaption class="who"><i>М</i><span>Максим Д.<small>Студент</small></span></figcaption></figure>
+      <figure class="quote" style="margin:0"><p>«П’ю ваш подвійний еспресо як передтрен перед жорсткими тренуваннями в залі. Дає потужний заряд енергії без важкості в шлунку. Для тих, хто стежить за харчуванням і формою — саме те, що треба.»</p><figcaption class="who"><i>І</i><span>Ігор С.<small>Тренер</small></span></figcaption></figure>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap fgrid">
+    <div><p style="opacity:.8;max-width:280px;font-size:.9rem">Справжня кава для тих, хто цінує свій час та безкомпромісну якість.</p><h4 style="margin-top:22px">Слідкуйте за нами</h4><div class="soc"><a href="#top" aria-label="X">X</a><a href="#top" aria-label="Facebook">f</a><a href="#top" aria-label="Instagram">ig</a><a href="#top" aria-label="Pinterest">P</a></div></div>
+    <div><h4>Сторінки</h4><ul><li><a href="#top">Головна</a></li><li><a href="#menu">Меню</a></li><li><a href="#top">Блог</a></li><li><a href="#about">Про нас</a></li></ul></div>
+    <div><h4>Послуги</h4><ul><li>Доставка кави</li><li>Кава з собою</li><li>Органічна кава</li><li>Обсмажування на замовлення</li></ul></div>
+    <div><h4>Контакти</h4><ul><li><a href="tel:+380991234567">Телефон: +38 (099) 123 45 67</a></li><li><a href="mailto:kofehoney@gmail.com">Email: kofehoney@gmail.com</a></li><li>Адреса: м. Київ, вул. Хрещатик, 22</li></ul></div>
+  </div>
+</footer>
+
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="script.js" defer></script>
+</body>
+</html>
